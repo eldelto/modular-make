@@ -1,0 +1,12 @@
+# Ignore build directory
+build
+
+# Ignore build artificats
+*.o
+*.d
+
+# Ignore logs
+*.log
+
+# Ignore editor files
+.vscode
