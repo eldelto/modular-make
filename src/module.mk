@@ -1,2 +1,1 @@
-SRC := $(shell find . -name '*.c' -maxdepth 1)
-SRC_FILES += SRC
+SRC_FILES += $(shell find ./src -name '*.c' -maxdepth 1)
